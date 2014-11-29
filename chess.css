@@ -1,0 +1,181 @@
+.squareStyling
+{
+    border: 1px solid black;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-image: url('images/white%20background.png');
+}
+
+.squareStylingFirstDiv
+{
+
+    clear: left;
+}
+
+.alternatives
+{
+    background-image: url('images/black%20background.png');
+
+}
+
+
+.imageStyles
+{
+    margin: 4px auto;
+    display: block;
+    height: 50px;
+
+
+}
+
+
+.changeColourOfDiv
+{
+    background-color: indianred;
+    background-image: none;
+}
+
+.divWithImageIn
+{
+
+}
+
+.image
+{
+
+}
+
+
+.mainDiv
+{
+    width:700px;
+    height:495px;
+    padding:10px;
+  //  border: 1px solid black;
+    background-image: url('miandiv.png');
+}
+
+.playerArea
+{
+    //border:1px solid red;
+    display: inline-block;
+    vertical-align: top;
+    height: 366px;
+    width: 200px;
+    margin-left: 3px;
+}
+
+.playerInfo{
+    height: 50%;
+   // border: 1px solid blue;
+
+
+}
+
+.mainPlayerDiv
+{
+    /*width:200px;*/
+    background-image: url("backgroundPlayer.png");
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    vertical-align: middle;
+    height:175px;
+    margin: auto;
+}
+.playerName{
+    background-image: url("insteadOfGrey.png");
+    border-top-left-radius: 11px;
+    border-top-right-radius:  11px;;
+    padding: 5px;
+    color:white;
+}
+.timeName{
+    padding: 5px;
+    color: white;
+    font-size: 80%;
+}
+.time{
+    padding: 5px;
+    background-image: url("beigeBackground.png");
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 2px 0px #000 inset;
+    font-size: 108%;
+}
+.moveName{
+    padding: 5px;
+    color: white;
+    font-size: 80%;
+}
+.move{
+    padding: 5px;
+    background-image: url("beigeBackground.png");
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 2px 0px #000 inset;
+    box-sizing: border-box;
+    font-size: 108%;
+}
+
+.board{
+
+}
+
+.playerWhite{
+
+}
+
+.playerBlack{
+
+}
+.pawnPromotion
+{
+    position: absolute;
+    top: 189px;
+    left: 165px;
+    width: 200px;
+    height: 130px;
+    z-index: 999;
+    background-color: white;
+    opacity: 0.97;
+    visibility: hidden;
+}
+
+.label{
+    display:block;
+}
+
+.pawnPromotionHeader{
+    padding-left: 42px;
+}
+
+.buttonDiv{
+    padding-left: 77px;
+}
+
+.checkDiv{
+    position: absolute;
+    top: 240px;
+    left: 165px;
+    width: 200px;
+    height: 45px;
+    z-index: 999;
+    background-color: #FFF;
+    opacity: 0.85;
+    padding-left: 27px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    visibility: hidden;
+}
+
+.closeButton{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
