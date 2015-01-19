@@ -9,6 +9,6 @@ An interactive chess game showing possible moves when a piece is clicked and kee
 * Move checking also excludes any moves that would have put you in check.
 * It allows board setup using a simple string of sixty four characters (8 by 8 squares).
 
-[Click here to play](https://cdn.rawgit.com/bend101/chess/master/chess.html)
+[Click here to play](https://rawgit.com/bend101/chess/master/chess.html)
 
 
